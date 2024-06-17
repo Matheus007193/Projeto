@@ -1,0 +1,635 @@
+.navbar { z-index: 9999;}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px; /* Tamanho de fonte padrão */
+  letter-spacing: normal; /* Espaçamento padrão entre as letras */
+}
+#inicio {
+    margin-top:140px;
+    font-size: 3em;
+    color: rgb(56, 134, 206);
+    font-weight:600;
+}
+#texto2 {
+    font-size: 1.7em !important;
+    color:  rgb(8, 40, 72);
+    margin: center;
+    text-align: justify;
+}
+#foto {
+    position:fixed;
+    margin-top: -750px;
+}
+.container-fluid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto ;
+    width: 100%;
+    background-color: #ffffff; /* Cor de fundo da barra */
+    color: #fff; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /
+}   
+.conteudo {
+    padding-top: 60px; 
+}
+#conteudo {
+    margin-top:30px;
+    font-size: 3em;
+    color: rgb(56, 134, 206);
+    font-weight:600;
+    text-align: justify;
+}
+#topico1 {
+    color:  rgb(21, 91, 156);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o link é hover */
+  }
+  .quadrado {
+    margin-top: 90px !important;
+    background-color: rgb(172, 211, 217); /* Cor de fundo do quadrado */
+    margin: 5x;
+    border: 5px solid rgb(32, 57, 168);
+    text-align: justify;
+  }
+  #quadrado {
+    font-size: 2em;
+    margin-top: 20px;
+    color: rgb(14, 61, 105);
+    text-align: justify;
+    text-align: center;
+  }
+  #quadrado2 {
+    color: black !important;
+    font-size: 1.3em;
+    text-align: center; 
+    font-weight: 500;
+    padding: 20px;
+    text-align: justif
+  }
+  #topico2 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+  }
+  #img2 {
+    margin-top: 10px;
+    font-size: 1.7em;
+    color:  rgb(8, 40, 72);
+    text-align: justify;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img3 {
+    width: 890px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img4 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img5 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img6 {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img7 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #img8 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao zoom */
+  }
+  #lista1 {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  #texto3 {
+    margin-top: 10px;
+    font-size: 1.7em;
+    color:  rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #texto4 {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  #texto5 {
+    font-size: 1.7em !important;
+    color: rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #topico3 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center;
+    text-align: justify; 
+  }
+
+  #texto6 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #machine {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center;
+    text-align: justify; 
+  }
+
+  #Natural {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #teste {
+    text-align: justify;
+  }
+
+  #barra2 {
+    font-size: 1.2em;
+    color: black;
+  }
+  #topico4 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #topico5 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #topico6 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #quadrado3 {
+    font-size: 2em;
+    margin-top: 40px;
+    color: rgb(14, 61, 105);
+    text-align: justify;
+    text-align: center; 
+    margin-right: 500px;
+  }
+  #quadrado4 {
+    color: black !important;
+    font-size: 2em;
+    text-align: center; 
+    font-weight: 400;
+    padding: 20px;
+  } 
+  .quadrado2 {
+    margin-top: 90px !important;
+    width: 900px; /* Largura do quadrado */
+    height: 400px; /* Altura do quadrado */
+    background-color: rgb(172, 211, 217); /* Cor de fundo do quadrado */
+    margin: 5x;
+    border: 5px solid rgb(32, 57, 168);
+    text-align: justify;
+  }
+
+#conclusão {
+  margin-top:40px;
+  font-size: 3em;
+  color: rgb(56, 134, 206);
+  font-weight:600;  
+}
+#texto8 {
+  font-size: 1.7em;
+  color: rgb(8, 68, 129);
+  text-align: justify;
+}
+.circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circulo img {
+  width: 100% !important;
+  height: auto; 
+  overflow-x: hidden;
+  font-size: 16px; /* Tamanho de fonte padrão */
+  letter-spacing: normal; /* Espaçamento padrão entre as letras */
+  }
+#inicio {
+    margin-top:140px;
+    font-size: 3em;
+    color: rgb(56, 134, 206);
+    font-weight:600;
+}
+#texto1 {
+    font-size: 1.0em !important;
+    color:  rgb(8, 40, 72);
+    margin: center;
+    text-align: justify;
+}
+#foto {
+    position:fixed;
+    margin-top: -750px;
+}
+.container-fluid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto ;
+    width: 100%;
+    background-color: #ffffff; /* Cor de fundo da barra */
+    color: #fff; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /
+}   
+.conteudo {
+    padding-top: 60px; 
+}
+#conteudo {
+    margin-top:30px;
+    font-size: 3em;
+    color: rgb(56, 134, 206);
+    font-weight:600;
+    text-align: justify;
+}
+#topico1 {
+    color:  rgb(21, 91, 156);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o link é hover */
+  }
+  .quadrado {
+    margin-top: 90px !important;
+    background-color: rgb(172, 211, 217); /* Cor de fundo do quadrado */
+    margin: 5x;
+    border: 5px solid rgb(32, 57, 168);
+    text-align: justify;
+  }
+  #quadrado {
+    font-size: 2em;
+    margin-top: 20px;
+    color: rgb(14, 61, 105);
+    text-align: justify;
+    text-align: center;
+  }
+  #quadrado2 {
+    color: black !important;
+    font-size: 1.3em;
+    text-align: center; 
+    font-weight: 500;
+    padding: 20px;
+    text-align: justif
+  }
+  #topico2 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+  }
+  #lista1 {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  #texto3 {
+    margin-top: 10px;
+    font-size: 1.7em;
+    color:  rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #texto4 {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  #texto5 {
+    font-size: 1.0em;
+    color: rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #topico3 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center;
+    text-align: justify; 
+  }
+
+
+  #texto6 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(8, 40, 72);
+    text-align: justify;
+  }
+  #machine {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center;
+    text-align: justify; 
+  }
+  #Natural {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #teste {
+    text-align: justify;
+  }
+
+  #barra2 {
+    font-size: 1.2em;
+    color: black;
+  }
+  #topico4 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #topico5 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #topico6 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color:  rgb(21, 91, 156);
+    margin: center; 
+    text-align: justify;
+  }
+  #quadrado3 {
+    font-size: 2em;
+    margin-top: 40px;
+    color: rgb(14, 61, 105);
+    text-align: justify;
+    text-align: center; 
+    margin-right: 500px;
+  }
+  #quadrado4 {
+    color: black !important;
+    font-size: 2em;
+    text-align: center; 
+    font-weight: 400;
+    padding: 20px;
+  } 
+  .quadrado2 {
+    margin-top: 90px !important;
+    width: 900px; /* Largura do quadrado */
+    height: 400px; /* Altura do quadrado */
+    background-color: rgb(172, 211, 217); /* Cor de fundo do quadrado */
+    margin: 5x;
+    border: 5px solid rgb(32, 57, 168);
+    text-align: justify;
+  }
+
+#conclusão {
+  margin-top:40px;
+  font-size: 3em;
+  color: rgb(56, 134, 206);
+  font-weight:600;  
+}
+#texto8 {
+  font-size: 1.7em;
+  color: rgb(8, 68, 129);
+  text-align: justify;
+}
+.circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circulo img {
+  width: 100% !important;
+  height: auto;
+  margin-top: -20px;
+  margin-right: 10px;
+}
+#autor {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+#autor2 {
+  font-size: 2.5em;
+  margin-right: 50px;
+  
+}
+#rede {
+  font-size: 2em;
+  margin-right: 200000px;
+}
+#ok {
+  font-size: 1.5em;
+  color:  rgb(21, 91, 156);
+    text-decoration: one;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: justify;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+  display: none; /* Inicialmente escondido */
+}
+/* Estilo para centralizar a imagem verticalmente */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgContainer {
+  position: relative;
+  width: 500px; /* Defina a largura desejada */
+  height: 300px; /* Defina a altura desejada */
+  overflow: hidden; /* Esconde qualquer parte da sombra que se estenderia para fora do contêiner */
+}
+
+
+
+.dark-border {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra escura de 10px */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#texto10 {
+  font-size: 1.7em;
+  color: rgb(8, 40, 72);
+  text-align: justify;
+}
+#feed1 {
+  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 12em !important;
+}
+.iemail{
+margin-left: -10px !important;
+}
+.icomentario1 {
+  margin-left: -57px !important;
+}
+.inome {
+  margin-left: -16px !important;
+}
+#QR {
+  width: 20px !important;
+  height: 20px !important;
+}
+#autor {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+#autor2 {
+  font-size: 2.5em;
+  margin-right: 50px;
+  
+}
+#rede {
+  font-size: 2em;
+  margin-right: 200000px;
+}
+#ok {
+  font-size: 1.5em;
+  color:  rgb(21, 91, 156);
+    text-decoration: one;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: justify;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+  display: none; /* Inicialmente escondido */
+}
+/* Estilo para centralizar a imagem verticalmente */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+#imgContainer {
+  position: relative;
+  width: 500px; /* Defina a largura desejada */
+  height: 300px; /* Defina a altura desejada */
+  overflow: hidden; /* Esconde qualquer parte da sombra que se estenderia para fora do contêiner */
+}
+
+.dark-border {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra escura de 10px */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 440px) {
+  #inicio {
+    font-size: 1.5em;
+    margin-top: 60px;
+  }
+  .quadrado {
+    margin-left: -30%;
+  }
+}
+#texto10 {
+  font-size: 1.7em;
+  color: rgb(8, 40, 72);
+  text-align: justify;
+}
+#feed1 {
+  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 12em !important;
+}
+.iemail{
+margin-left: -10px !important;
+}
+.icomentario1 {
+  margin-left: -57px !important;
+}
+.inome {
+  margin-left: -16px !important;
+}
+#QR {
+  height: 220px !important;
+  width: 200px !important;
+}
+#QR2 {
+  font-size: 1.2em;
+}
+#texto20{
+   font-size: 1.7em !important;
+    color: rgb(8, 40, 72);
+    text-align: justify; 
+}
